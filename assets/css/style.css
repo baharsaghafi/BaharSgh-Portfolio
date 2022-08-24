@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
     --color-base: #033f47;
     --color-base2: #022a30;
-    --color-brand: #e0f780;
+    --color-brand: #e8ff8dab;
     --color-brand2: #deff58;
     --sidbar-width: 240px;
-    --font-base: "Poppins";
+    --font-base: "openSans";
 }
 
 body {
@@ -35,3 +35,28 @@ a:hover {
 img {
     width: 100%
 }
+
+/* Navbar */
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgb(3, 63, 71,0.9), rgb(3, 63, 71, 0.9)), url(../images/sidebar-img.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
+    }
+} 
