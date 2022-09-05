@@ -133,6 +133,10 @@ img {
     border-color: var(--color-brand2);
 }
 
+.btn-space {
+    margin-top: 20px;
+}
+
 .link-custom {
     font-weight: 700;
     position: relative;
@@ -159,7 +163,6 @@ img {
     background-color: var(--color-base);
     border-color: var(--color-base);
     color: var(--color-body);
-    padding-top: 50px;
 }
 
 #contact .form-control:focus {
