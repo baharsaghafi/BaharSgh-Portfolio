@@ -159,6 +159,7 @@ img {
     background-color: var(--color-base);
     border-color: var(--color-base);
     color: var(--color-body);
+    padding-top: 50px;
 }
 
 #contact .form-control:focus {
