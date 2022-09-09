@@ -1,3 +1,2 @@
 # Baharsaghaficv
-In progress ...
- Design my portfolio website using Bootstrap HTML and CSS 
+Design my portfolio website using Bootstrap HTML and CSS 
